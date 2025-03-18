@@ -1,0 +1,34 @@
+{
+  "name": "calculator-microservice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishBM/sit737-2025-prac4p.git"
+  },
+  "keywords": [
+    "calculator",
+    "microservice",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrishBM/sit737-2025-prac4p/issues"
+  },
+  "homepage": "https://github.com/KrishBM/sit737-2025-prac4p#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
